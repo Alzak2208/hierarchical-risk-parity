@@ -1,0 +1,9 @@
+name: hrp
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  # packages are listed in pyproject.toml
+  - pip:
+      - -e .[dev]

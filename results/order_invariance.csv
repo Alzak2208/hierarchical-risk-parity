@@ -1,0 +1,5 @@
+covariance,leaf_order,mean_l1,max_l1
+numerical example (10 assets),default,0.083565,0.157765
+numerical example (10 assets),optimal,0.0,0.0
+sector universe (48 assets),default,0.042137,0.085152
+sector universe (48 assets),optimal,0.0,0.0

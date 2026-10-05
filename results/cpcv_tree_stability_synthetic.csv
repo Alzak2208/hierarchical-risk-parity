@@ -1,0 +1,8 @@
+statistic,value
+splits,45
+distinct_trees,45
+mean_share_of_full_sample_clusters,0.6567
+hrp_instability_default_order,0.1547
+hrp_instability_optimal_order,0.1577
+sectors,6
+sectors_forming_a_cluster,0

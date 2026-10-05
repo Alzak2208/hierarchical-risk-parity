@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hierarchical-risk-parity"
+version = "0.1.0"
+description = "Hierarchical Risk Parity against the minimum-variance (Critical Line Algorithm) and inverse-variance portfolios, with a CPCV backtest."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Alyou BAMBA", email = "alyouzakariha.bamba@ensae.fr" }]
+keywords = ["portfolio-construction", "hierarchical-risk-parity", "asset-allocation", "critical-line-algorithm", "quantitative-finance"]
+
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "scipy>=1.11",
+    "matplotlib>=3.9",
+]
+
+[project.optional-dependencies]
+data = ["pyarrow>=14.0"]
+dev = ["pytest>=8.0", "ruff>=0.6", "pyarrow>=14.0"]
+
+[project.urls]
+Repository = "https://github.com/Alzak2208/hierarchical-risk-parity"
+
+[tool.setuptools.packages.find]
+include = ["src*", "analysis*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select =["E", "F", "W", "I", "UP", "B", "NPY"]

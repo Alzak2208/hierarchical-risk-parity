@@ -1,0 +1,5 @@
+,CLA,HRP,IVP
+in_sample_std,0.445585,0.464282,0.50897
+top5_share,0.996727,0.705869,0.514021
+zero_weights,2.0,0.0,0.0
+condition_number,260.542312,260.542312,260.542312

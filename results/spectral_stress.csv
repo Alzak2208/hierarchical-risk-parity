@@ -1,0 +1,7 @@
+method,covariance,mean_l1,median_l1,p95_l1
+HRP,numerical example (10 assets),0.6691,0.6057,1.2802
+CLA,numerical example (10 assets),0.7112,0.6699,1.3363
+IVP,numerical example (10 assets),0.5921,0.5403,1.1481
+HRP,sector universe (48 assets),0.2862,0.278,0.3845
+CLA,sector universe (48 assets),0.5133,0.452,1.0202
+IVP,sector universe (48 assets),0.1413,0.1314,0.2276
